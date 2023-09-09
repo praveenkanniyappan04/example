@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .first {
+            display: flex;
+            text-decoration: none;
+            background-color: rgb(18, 105, 56);
+            justify-content: space-between;
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 20px;
+
+        }
+
+        @media screen and (min-width: 1440px) {
+            .first {
+                padding: 20px 30px;
+
+            }
+        }
+
+        .second {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar {
+            padding: 20px 0px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            display: inline-block;
+            color: #000;
+            font-size: x-small;
+        }
+        @media screen and (min-width: 768px) {
+            .navbar {
+                padding: 20px 20px;
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .navbar a {
+                display: inline-block;
+                font-size: larger;
+            }
+        }
+
+        .innav a:hover {
+            background-color: rgb(118, 116, 114);
+        }
+
+        .flex {
+            width: 100%;
+        }
+
+        div.banner {
+
+            position: relative;
+
+
+        }
+
+        div.intext {
+            position: absolute;
+            top: 8px;
+            left: 0;
+            padding: 14px;
+            padding-left: 20px;
+            font-size: 6px;
+            color: rgb(18, 105, 56);
+
+        }
+
+        @media screen and (min-width: 768px) {
+            div.intext {
+                padding: 45px;
+                padding-left: 45px;
+                font-size: 15px;
+            }
+        }
+        @media screen and (min-width: 1024px) {
+            div.intext {
+                padding: 60px;
+                padding-left: 55px;
+                font-size: 20px;
+            }
+        }
+        @media screen and (min-width: 1440px) {
+            div.intext {
+                padding: 90px;
+                padding-left: 80px;
+                font-size: 28px;
+            }
+        }
+
+        .fl {
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            /* flex-direction: row; */
+            background-color: white;
+            flex: 50%;
+        }
+
+        /* Responsive layout - makes a one column layout instead of a two-column layout */
+
+        .flo {
+            border: 1px solid green;
+            background-color: #dfefd9;
+            margin: 10px;
+        }
+
+        @media screen and (min-width: 768px) {
+            .fl {
+                display: flex;
+
+                /* border: 1px solid green; */
+                /* background-color: #dfefd9; */
+                /* margin: 10px; */
+                /* width: 100%; */
+            }
+        }
+
+
+
+        .inline {
+            text-align: justify;
+            color: rgb(134, 132, 132);
+        }
+
+        .outline {
+            color: rgb(18, 105, 56);
+            text-align: center;
+        }
+
+        .four {
+            display: flex;
+            background-color: #dfefd9;
+        }
+
+        .docim {
+            width: 100%;
+        }
+
+        .ol {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .siximg {
+            width: 100%;
+        }
+
+        .sixoutlay {
+            position: relative;
+        }
+
+        .sixinlay {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <div class="email">
+            <p><i class="fa fa-envelope" aria-hidden="true"></i></i><a
+                    href="mailto:helpcenter@snh.com">helpcenter@snh.com</a></p>
+        </div>
+        <div>
+            <p><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+91-7895462103">+91-7895462103</a></p>
+        </div>
+    </div>
+    <div class="second">
+        <div class="logo">
+            <img src="images/logo.png" height="50px">
+        </div>
+        <div class="navbar">
+            <div class="innav">
+                <a href="home">Home</a>
+                <a href="about">AboutAs</a>
+                <a href="facilities">Facilities</a>
+                <a href="contact">contactUs</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="./images/banner.png" class="flex">
+        <div class="intext">
+            <h1>A Hospital For Your<br>Family.</h1>
+            <span class="text">A great place to get a wonderful care</span>
+        </div>
+    </div>
+    <div class="fl">
+        <div class="flo">
+            <p class="outline"><i class="fa fa-user-md" aria-hidden="true"></i><br><span><strong>Medical
+                        councelling</strong><span></p>
+            <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                Duis ac sapien quis orci interdum aliquet.</p>
+            <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+        </div>
+        <div class="flo">
+            <p class="outline"><i class="fa fa-ambulance" aria-hidden="true"></i><br><span><strong>Emergency
+                        Service</strong><span></p>
+            <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                Duis ac sapien quis orci interdum aliquet.</p>
+            <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+
+        </div>
+        <div class="flo">
+            <p class="outline"><i class="fa-solid fa-calendar-days"></i><br><span><strong>doctors time
+                        table</strong><span></p>
+            <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                Duis ac sapien quis orci interdum aliquet.</p>
+            <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+        </div>
+    </div>
+    <div class="four">
+        <div class="docim">
+            <img src="./images/side img.png" width="150" height="300">
+        </div>
+        <div>
+            <p>About our hospital</p>
+        </div>
+    </div>
+    <div class="five">
+        <div class="ol">
+            <p>facilities available at shanthi nursing home<span stlye="border-bottom:2px solid green"></span></p>
+        </div>
+        <div class="fl">
+            <div class="flo">
+                <p class="outline"><iconify-icon icon="medical-icon:kidney"></iconify-icon><br><span><strong>Medical
+                            councelling</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="flo">
+                <p class="outline"><i class="fa-light fa-box-tissue"></i><br><span><strong>Emergency
+                            Service</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+
+            </div>
+            <div class="flo">
+                <p class="outline"><i class="fa-regular fa-knife-kitchen"></i><br><span><strong>doctors time
+                            table</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="flo">
+                <p class="outline"></p> <i class="fa-light fa-alien-8bit"></i><br><span><strong>Medical
+                            councelling</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="flo">
+                <p class="outline"><i class="fa fa-ambulance" aria-hidden="true"></i><br><span><strong>Emergency
+                            Service</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+
+            </div>
+            <div class="flo">
+                <p class="outline"><i class="fa-solid fa-calendar-days"></i><br><span><strong>doctors time
+                            table</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="flo">
+                <p class="outline"><i class="fa fa-ambulance" aria-hidden="true"></i><br><span><strong>Emergency
+                            Service</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+
+            </div>
+            <div class="flo">
+                <p class="outline"><i class="fa-solid fa-calendar-days"></i><br><span><strong>doctors time
+                            table</strong><span></p>
+                <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+        </div>
+    </div>
+    <div class="six">
+        <div class="sixoutlay">
+            <img src="./images/center pic.png" class="siximg">
+            <div class="sixinlay">
+                <h3>Our Excellent Team Is able To<br>
+                    SupportYou</h3>
+            </div>
+        </div>
+    </div>
+    <div class="seven">
+        <div class="ol">
+            <p>Our Specialists</p>
+        </div>
+        <div class="fl">
+            <div class="flo">
+                <p class="outline"><img src="./images/doctor-with-co-workers-analyzing-x-ray.jpg"
+                        width="50%"><br><span><strong>DR Merin </strong><span></p>
+                <p style="color: rgb(125, 235, 184);text-align: center;"><br><br> Physician</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="flo">
+                <p class="outline"><img src="./images/happy-doctor-holding-clipboard-with-patients.jpg"
+                        width="50%"><br><span><strong>DR Hari</strong><span></p>
+                <p style="color: rgb(125, 235, 184);text-align: center;"><br><br> Physician</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+
+            </div>
+            <div class="flo">
+                <p class="outline"><img src="./images/young-doctor-supporting-his-patient.jpg"
+                        width="50%"><br><span><strong>DR Vishnu</strong><span></p>
+                <p style="color: rgb(125, 235, 184); text-align: center;"><br><br> Physician</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+            <div class="flo">
+                <p class="outline"><img src="./images/happy-doctor-holding-clipboard-with-patients.jpg"
+                        width="50%"><br><span><strong>DR Hari</strong><span></p>
+                <p style="color: rgb(125, 235, 184); text-align: center;"><br><br> Physician</p>
+                <p class="outline">READ MORE <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <div>
+            <div class="f">
+                <p class="lastin"><img src="./images/logo2.png"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam pulvinar nibh sem, vitae efficitur velit porta at.
+                    Duis ac sapien quis orci interdum aliquet.</span></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

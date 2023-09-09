@@ -1,0 +1,138 @@
+.first{
+    display: flex;
+    justify-content: space-between;
+   background-color:forestgreen;
+}
+.second{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+.navbar{
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+}
+.flex{
+    width: 100%
+}
+div.banner{
+    position: relative;
+}
+div.index{
+    position: absolute;
+    top: 9px;
+    padding-left:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 10px;
+    color: forestgreen;
+}
+.navbar{
+    text-decoration: none;
+}
+.outline{
+    text-align: center;
+}
+.inline{
+    padding-left: 10px;
+}
+.f2{
+    border: 2px solid black;
+    background-color: rgb(130, 184, 130);
+}
+hr{
+    color: rgb(126, 244, 7);
+}
+.s1{
+    position: absolute;
+}
+.s2{
+    position: relative;
+    margin-left: 100px;
+}
+p{
+    color: black;
+}
+.s3{
+    background-color: rgb(133, 160, 106);
+}
+.si4{
+    background-color: rgb(135, 254, 15);
+}
+
+
+.si2{
+    border: 2px solid black;
+    background-color: aquamarine;
+    opacity: 0.8;
+}
+.si4{
+    border:2px solid black;
+}
+.slide6{
+    border: 2px solid black;
+    background-color: rgb(216, 244, 196);
+    text-align: center;
+} 
+img{
+max-width: 1400px;
+object-fit: cover;
+}
+@media screen and (min-width: 768px){
+    div.index{
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+    .l1{
+        width: 50px;
+        height: 50px;
+    }
+    .f1{
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        
+    }
+    .slide3{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .si1{
+        display: flex;
+        font-size:15px;
+       float: left;
+    }
+    .ccontainer{
+        flex: 50%;
+    }
+    .s4{
+        display: flex;
+        justify-content: space-between;
+    }
+    .img{
+        height: 400px;
+    }
+    .si3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .slide6{
+        display: flex;
+        width: 100%;
+    }
+   .si5t{
+    width: 33%;
+   }
+   .si5y{
+    width: 33%;
+   }
+   .si5u{
+    width:33%;
+        
+    }
+   }
+
+   
